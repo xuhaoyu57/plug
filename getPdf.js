@@ -19,7 +19,7 @@ function getPdf (dom,title) {
                 while (nowHeight > 0) {
                     PDF.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight)
                     nowHeight -= pageHeight
-                    position -= 841.89
+                    position -= 841.89//?
                     if (nowHeight > 0) {
                         PDF.addPage()
                     }

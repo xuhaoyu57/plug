@@ -1,4 +1,5 @@
 import XLSX from 'xlsx';
+//vue中监听上传文件变化事件的第一个形参直接传入file即可，vue包装的对象符合格式
 function importExcel(file,cb){
     // 获取上传的文件对象
     const { files } = file.target;

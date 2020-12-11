@@ -33,8 +33,8 @@ function importExcel(file,cb){
 
 /**
  *
- * @param headers 列
- * @param data 行数据
+ * @param headers 列 数组 [{key:列名}]
+ * @param data 行数据 数组 [{列名:值}]
  * @param fileName 文件名（包括后缀名）
  */
 function exportExcel(headers, data, fileName = '项目导出.xlsx') {

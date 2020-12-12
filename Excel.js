@@ -33,7 +33,7 @@ function importExcel(file,cb){
 
 /**
  *
- * @param headers 列 数组 [{key:列名}]
+ * @param headers 列 数组 [{key:列名,title:excel显示列名}]
  * @param data 行数据 数组 [{列名:值}]
  * @param fileName 文件名（包括后缀名）
  */

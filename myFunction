@@ -1,3 +1,4 @@
+某段字符是否存在于某字符串
 mytest(reg,str){
 				for (var i = 0; i < str.length; i++) {
 					if(str[i]==reg[0]){

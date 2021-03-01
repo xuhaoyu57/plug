@@ -1,0 +1,15 @@
+mytest(reg,str){
+				for (var i = 0; i < str.length; i++) {
+					if(str[i]==reg[0]){
+						let flag = true
+						for (var k = i+1; k < str.length; k++) {
+							if(str[k]!=reg[k-i]){
+								flag = false
+							}
+							if(k-i>=reg.length-1) break
+						}
+						console.log(i,flag);
+					}
+					
+				}
+			}
